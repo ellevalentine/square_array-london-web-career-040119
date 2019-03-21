@@ -1,9 +1,9 @@
 
 def square_array(array)
   
- array.each do |squared_number|
+ array.each do |n|
    
-new_numbers= array << (#{squared_number})**2 
+n**2 
   
 return new_numbers
 
